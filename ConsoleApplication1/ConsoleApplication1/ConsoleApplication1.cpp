@@ -6,10 +6,14 @@
 
 using namespace std;
 
+void printTest() {
+	cout << "Hallo";
+}
+
 int main()
 {
 	int test = 0;
-	cout << "Hallo";
+	printTest();
 	cin >> test;
     return 0;
 }
